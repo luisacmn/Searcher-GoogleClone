@@ -28,7 +28,7 @@ form {
     padding: 15px;
     border-radius: 30px;
     border: solid 1px lightgrey;
-    background-image: url("search-google.png");
+    background-image: url("images/search-google.png");
     background-size: 12px;
     background-repeat: no-repeat;
     background-position: 15px 15px;    
@@ -68,8 +68,23 @@ a:hover {
 }
 
 
+button {
+    background-color:rgb(240, 240, 240);
+    border-radius: 5px;
+    border: black;
+    padding: 10px 15px;
+    font: Arial, Helvetica, sans-serif 22px; 
+    margin: 30px auto;
+}
 
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px lightgrey;
+}
 
+#a-btn{
+    text-decoration: none;
+}
 
 
 
