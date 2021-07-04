@@ -1,0 +1,75 @@
+nav {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.div-img {
+    
+    width: 280px;
+    margin: 30px auto ;
+}
+
+img {
+    width: 270px;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+
+#form {
+    width: 550px; 
+    padding: 15px;
+    border-radius: 30px;
+    border: solid 1px lightgrey;
+    background-image: url("images/search-google.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 15px 15px;    
+}
+
+input[id="form"]:hover{
+    cursor: text;
+    box-shadow: 5px 5px 5px lightgrey;
+    outline: none;
+}
+
+input[id="submit"]{
+    background-color:rgb(240, 240, 240);
+    border-radius: 5px;
+    border: black;
+    padding: 10px 15px;
+    font: Arial, Helvetica, sans-serif 22px; 
+    margin: 30px auto;
+}
+
+input[id="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px lightgrey;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
