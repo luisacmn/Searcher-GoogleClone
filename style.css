@@ -47,7 +47,7 @@ input[id="form"]:hover{
 }
 
 input[id="submit"]{
-    background-color:rgb(240, 240, 240);
+    background-color:rgb(247, 247, 247);
     border-radius: 5px;
     border: black;
     padding: 10px 15px;
@@ -57,7 +57,7 @@ input[id="submit"]{
 
 input[id="submit"]:hover{
     cursor: pointer;
-    box-shadow: 5px 5px 5px lightgrey;  
+    box-shadow: 2px 2px 2px lightgrey;  
 }
 
 a {
@@ -73,7 +73,7 @@ a:hover {
 }
 
 button {
-    background-color:rgb(240, 240, 240);
+    background-color:rgb(247, 247, 247);
     border-radius: 5px;
     border: black;
     padding: 10px 15px;
@@ -83,7 +83,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 2px 2px 2px lightgrey;
 }
 
 #a-btn{
@@ -198,3 +198,11 @@ input[id="sub-adv"]:hover{
     margin-left: 610px;
 }
 
+span {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: -60px;
+    top: -30px;
+
+}
